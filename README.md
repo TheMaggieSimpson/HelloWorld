@@ -1,5 +1,5 @@
 # ExpressJS-PostgreSQL
-A template for ExpressJS+PostgreSQL project
+A template to start an ExpressJS+PostgreSQL web-app project
 
 ### References
 - https://expressjs.com
