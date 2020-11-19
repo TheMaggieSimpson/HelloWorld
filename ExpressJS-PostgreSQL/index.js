@@ -1,4 +1,5 @@
 const express = require('express')
+const helmet = require('helmet')
 const { Pool, Client } = require('pg')
 
 const app = express()
@@ -24,6 +25,8 @@ client.query('SELECT 1 + 1 AS result', (err, res) => {
     console.log('Result = ', res.rows)
     client.end()
 })
+
+app.use(helmet())
 
 app.get('/', (req, res) => res.send('Hello World!'))
 
