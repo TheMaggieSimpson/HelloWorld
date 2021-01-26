@@ -8,3 +8,4 @@ A template to start an ExpressJS+TypeScript web-app project
 ### References
 - https://www.typescriptlang.org
 - https://blog.logrocket.com/typescript-with-node-js-and-express/
+- https://www.boredapi.com/
