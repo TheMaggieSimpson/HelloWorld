@@ -1,5 +1,5 @@
 # ExpressJS-HTML-Pug
-A template to start a Python web-app using Flask.
+A template to start a Python web-app using Flask in a development server.
 
 ### Step-by-step
 Do the following in the working directory:
